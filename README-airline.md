@@ -1,6 +1,6 @@
 # Airline Satisfaction Correlation and Visualization
 ## Project Overview
-### This project focuses on understanding the relationship between various service aspects and overall passenger satisfaction in the airline industry. By calculating and visualizing correlation coefficients, we aim to uncover key factors that influence passenger experiences.
+### This project focuses on understanding the relationship between various service aspects and overall passenger satisfaction in the airline industry. By calculating and visualizing correlation coefficients, I aim to uncover key factors that influence passenger experiences.
 
 ## Dataset and Variables
 
@@ -11,6 +11,7 @@ Age: Age of the passenger
 Type of Travel: Purpose of the flight (personal or business)
 Class: Travel class (business, economy, economy plus)
 Flight Distance: Distance of the flight
+
 Satisfaction-related Variables: Ratings from 0 (not rated) to 5, covering aspects like:
 Inflight Wi-Fi Service
 Ease of Online Booking
@@ -28,8 +29,8 @@ Departure Delay in Minutes and Arrival Delay in Minutes: Lengths of delays
 
 ## Methodology
 
-Correlation Analysis: We calculated the correlation coefficients for each variable to determine their relationship with overall passenger satisfaction.
-Data Visualization: Using ggplot2 in R, we visualized these correlations to make the insights more intuitive and understandable.
+Correlation Analysis: I calculated the correlation coefficients for each variable to determine their relationship with overall passenger satisfaction.
+Data Visualization: Using ggplot2 in R, I visualized these correlations to make the insights more intuitive and understandable.
 
 ## Key Results
 
@@ -47,7 +48,7 @@ Flight Distance: Negative correlation of -0.07, indicating that longer flights m
 
 ## Visualization
 
-We used ggplot2 to create a bar plot that visually represents the strength of each variable's correlation with passenger satisfaction. This plot helps easily identify which factors are most influential.
+I used ggplot2 to create a bar plot that visually represents the strength of each variable's correlation with passenger satisfaction. This plot helps easily identify which factors are most influential.
 
 ## Conclusion
 
