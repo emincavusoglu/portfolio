@@ -1,0 +1,42 @@
+#Importing Dataset
+library(readxl)
+BankLoan <- read_excel("Desktop/BankLoan.xlsx")
+View(BankLoan)      
+#Exploratory Data analysis
+str(BankLoan)
+head(BankLoan)
+summary(BankLoan)
+boxplot(BankLoan)
+#Creating histogram (you can understand is it right skewed, left skewed or normal distribution)
+par(mar=c(3,3,3,3))
+par(mfrow=c(3,3))
+hist(BankLoan$Age)
+hist(BankLoan$Education)
+hist(BankLoan$Employ)
+hist(BankLoan$Address)
+hist(BankLoan$Income)
+hist(BankLoan$DebtInc)
+hist(BankLoan$CredDebt)
+hist(BankLoan$OtherDebt)
+hist(BankLoan$Default)
+#Forming Classification (Decision Tree)
+install.packages("rpart")
+library(rpart)
+BankLoan2<-BankLoan[1:700,]
+fit <- rpart(Default ~ ., method="class", data=BankLoan2)
+#Understanding the Decision Tree
+printcp(fit)
+plotcp(fit)
+summary(fit)
+#Visualizing the Decision Tree
+plot(fit, uniform=TRUE, main="Classification Tree For BankLoan")
+text(fit, use.n=TRUE, all=TRUE, cex=.6)
+#Creating fancy tree
+install.packages("rpart.plot")
+install.packages("RColorBrewer")
+install.packages("rattle")
+library(rattle)
+library(rpart.plot)
+library(RColorBrewer)
+
+fancyRpartPlot(fit)
