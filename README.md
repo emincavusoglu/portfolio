@@ -24,6 +24,7 @@ Model Evaluation: Analyzed model performance using complexity parameters (CP) an
 
 Root Node Error: The root node error indicates that 183 out of 700 observations were misclassified, leading to an error rate of approximately 26.14%.
 Complexity Parameter (CP) Table:
+
 CP	nsplit	rel error	xerror	xstd
 0.08743	0	1.00000	1.00000	0.06353
 0.06011	1	0.91257	1.00546	0.06364
@@ -43,7 +44,7 @@ Age: 8
 Address: 7
 Education: 2
 
-## Decision Tree Visualization ![Decision_Tree](Decision_Tree.png)
+## Decision Tree Visualization ![Decision_Tree](https://github.com/emincavusoglu/portfolio/blob/Bank-loan-decision-tree/Decision%20Tree.png)
 This visual representation of the decision tree demonstrates the classification logic, showing how different attributes lead to the decision regarding loan default.
 
 ## Conclusion 
