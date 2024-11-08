@@ -43,7 +43,7 @@ Age: 8
 Address: 7
 Education: 2
 
-## Decision Tree Visualization ![Decision Tree](Decision Tree.png)
+## Decision Tree Visualization ![Decision_Tree](Decision_Tree.png)
 This visual representation of the decision tree demonstrates the classification logic, showing how different attributes lead to the decision regarding loan default.
 
 ## Conclusion 
