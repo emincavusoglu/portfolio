@@ -23,18 +23,9 @@ Model Evaluation: Analyzed model performance using complexity parameters (CP) an
 ## Model Outputs
 
 Root Node Error: The root node error indicates that 183 out of 700 observations were misclassified, leading to an error rate of approximately 26.14%.
-Complexity Parameter (CP) Table:
-
-CP	nsplit	rel error	xerror	xstd
-0.08743	0	1.00000	1.00000	0.06353
-0.06011	1	0.91257	1.00546	0.06364
-0.03279	3	0.79235	0.93443	0.06212
-0.02186	4	0.75956	0.89617	0.06124
-0.01639	6	0.71585	0.88525	0.06097
-0.01093	7	0.69945	0.91803	0.06175
-0.01000	19	0.51913	0.90710	0.06149
 
 Variable Importance: The following variables were identified as significant predictors of loan default:
+
 DebtInc: 26
 CredDebt: 16
 Employ: 15
