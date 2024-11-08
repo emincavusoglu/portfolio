@@ -46,7 +46,8 @@ Gate Location: Very weak positive correlation (0.04), implying minimal impact on
 On-Board Service: Correlation of 0.03, lower than expected, suggesting the need for further analysis.
 Flight Distance: Negative correlation of -0.07, indicating that longer flights may slightly decrease satisfaction.
 
-## Visualization
+## Visualization ![correlations.pdf]()
+
 
 I used ggplot2 to create a bar plot that visually represents the strength of each variable's correlation with passenger satisfaction. This plot helps easily identify which factors are most influential.
 
